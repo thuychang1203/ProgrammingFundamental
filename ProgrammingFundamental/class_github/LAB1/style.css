@@ -1,0 +1,32 @@
+body {margin: 0px;}
+#container {width: 100%;}
+#banner {
+    height: 50px;
+    background-color:darkred;
+}
+#slide {
+    height: 160px;
+    background-color: #3B2F2F;
+}
+#content {
+    height: 400px;
+    background-color:rgb(195, 201, 196);
+}
+#bottom {
+    height: 250px;
+    background-color: darkred;
+}
+#copyright {
+    height: 50px;
+    background-color: #3B2F2F;
+}
+#banner .inner,
+#slide .inner,
+#content .inner,
+#bottom .inner,
+#copyright .inner {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(152, 89, 80, 0.493);
+}
